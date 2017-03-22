@@ -27,3 +27,4 @@ docker run -d --name memorytest -p 8089:80 test/memoryeater
 docker logs memorytest
 ```
 ######  If you want different rates please feel free to edit MemoryEater.java
+######  After edit MemoryEater.java, you need to recompile.
