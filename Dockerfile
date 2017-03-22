@@ -1,5 +1,5 @@
 FROM openjdk
-MAINTAINER Prasen <prasenforu@hotmail.com> 
+MAINTAINER Prasen <prasenforu@gmail.com> 
 # This is to create a java program which will consume memory and die after a while
 
 COPY MemoryEater.class  /
