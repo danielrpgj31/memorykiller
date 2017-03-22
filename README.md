@@ -19,7 +19,7 @@ chmod 755 install.sh
 
 ```
 docker build -t test/memoryeater .
-docker run -d --name memorytest -p 89:80 test/memoryeater
+docker run -d --name memorytest -p 8089:80 test/memoryeater
 ```
 
 ######  You can see the memory utilization every 2 seconds
