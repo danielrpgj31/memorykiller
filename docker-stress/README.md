@@ -9,5 +9,5 @@ docker build -t pkar/docstress .
 ### Run inside the container
 ### You can change value of memory and timeout
 ```
-sh stress --cpu 2 --vm 1 --vm-bytes 256M --timeout 300s
+stress --cpu 2 --vm 1 --vm-bytes 256M --timeout 300s
 ```
