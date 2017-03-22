@@ -1,8 +1,8 @@
 # Memorykiller
 
-### Memory eating java code with dockerised.
-### This will create and run as a docker container 
-### Internally its  run a program which will keep consuming memory till it crashes.
+###### Memory eating java code with dockerised.
+######  This will create and run as a docker container 
+######  Internally its  run a program which will keep consuming memory till it crashes.
 
 ## Installation
 
@@ -14,16 +14,16 @@ chmod 755 install.sh
 ./install.sh
 ```
 
-## IF you do HTTP to port 89 you will get the free memory. 
-## Refresh the screen to get the lates free memory
+######  IF you do HTTP to port 89 you will get the free memory. 
+######  Refresh the screen to get the lates free memory
 
 ```
 docker build -t test/memoryeater .
 docker run -d --name memorytest -p 89:80 test/memoryeater
 ```
 
-## You can see the memory utilization every 2 seconds
+######  You can see the memory utilization every 2 seconds
 ```
 docker logs memorytest
 ```
-## If you want different rates please feel free to edit MemoryEater.java
+######  If you want different rates please feel free to edit MemoryEater.java
