@@ -1,10 +1,10 @@
-# dockerfile-stress
+# Docker-stress
 
 #### Usage
 
 ### Build
 ```
-docker build -t pkar/dockerstress
+docker build -t pkar/docstress .
 ```
 ### Run inside the container
 ### You can change value of memory and timeout
