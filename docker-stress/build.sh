@@ -1,1 +1,1 @@
-docker build -t zyfdedh/stress .
+docker build -t pkar/stress .
