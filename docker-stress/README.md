@@ -4,7 +4,7 @@
 
 ### Build
 ```
-docker build -t pkar/docstress .
+docker build -t pkar/dockstress .
 ```
 ### Run inside the container
 ### You can change value of memory and timeout
