@@ -5,6 +5,6 @@
 #IF you do HTTP to port 8089 you will get the free memory. Refresh the screen to get the lates free memory
 
 docker build -t test/memoryeater .
-docker run -d --name memorytest -p 8089:80 test/memoryeater
+# docker run -d --name memorytest -p 8089:80 test/memoryeater
 
 
