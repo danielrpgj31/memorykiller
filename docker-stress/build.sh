@@ -1,1 +1,1 @@
-docker build -t pkar/docstress .
+docker build -t pkar/dockstress .
