@@ -1,14 +1,14 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: docstress
+  name: dockstress
   namespace: default
 spec:
   containers:
-  - image: pkar/docstress
+  - image: prasenforu/dockstress
     command:
       - sleep
       - "100"
     imagePullPolicy: IfNotPresent
-    name: docstress
+    name: dockstress
   restartPolicy: Always
