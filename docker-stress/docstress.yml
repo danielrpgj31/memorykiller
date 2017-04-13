@@ -6,9 +6,6 @@ metadata:
 spec:
   containers:
   - image: prasenforu/dockstress
-    command:
-      - sleep
-      - "100"
     imagePullPolicy: IfNotPresent
     name: dockstress
   restartPolicy: Always
